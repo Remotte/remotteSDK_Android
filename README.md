@@ -10,8 +10,6 @@ Remotte SDK Android
 - This sample show how to read and interpretate the remotte sensor values.
 
 
-SensorsActivity
-
 ## Contact
 
 [Remotte](http://www.remotte.com)
