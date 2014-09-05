@@ -6,7 +6,11 @@ Remotte SDK Android
 
 ## Notes
 
+- The files necessary to be able to accces to the values of remotte sensors are inside SensorsActivity.
 - This sample show how to read and interpretate the remotte sensor values.
+
+
+SensorsActivity
 
 ## Contact
 
