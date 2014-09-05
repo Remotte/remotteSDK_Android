@@ -1,7 +1,7 @@
 Remotte SDK Android
 ===============
 
-**SDK and sample of how to integrate remotte device in your app IOS**
+**SDK and sample of how to integrate remotte device in your app Android**
 
 
 ## Notes
@@ -20,4 +20,4 @@ For more info contact us in support@remotte.com
 
 ## Licence
 
-Remotte SDK IOS is available under the MIT licence. See the LICENCE file for more info.
+Remotte SDK Android is available under the MIT licence. See the LICENCE file for more info.
