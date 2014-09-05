@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/mActionBar_sensors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="#0190f6"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:contentDescription="@string/img"
+                android:src="@drawable/back" />
+
+            <ImageView
+                android:id="@+id/remotte_text_header_sensors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/back_button"
+                android:contentDescription="@string/img"
+                android:src="@drawable/remotte_header" />
+
+            <TextView
+                android:id="@+id/sensors_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/remotte_text_header_sensors"
+                android:text="@string/sensors_title"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/batt_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/mActionBar_sensors"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/batt_header"
+            android:textColor="#0190f6"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/batt_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/batt_header"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#0190f6"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/key_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/batt_value"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/motion_header"
+            android:textColor="#0190f6"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/key_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/key_header"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#0190f6"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/accel_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/key_value"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/accel_header"
+            android:textColor="#0190f6"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/accel_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/accel_header"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#0190f6"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/enable_accel"
+            style="@style/btnStyleDisabledIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/accel_header"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/accel_header"
+            android:layout_marginRight="3dp"
+            android:contentDescription="@string/img"
+            android:src="@drawable/uncheck" />
+
+        <TextView
+            android:id="@+id/gyro_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/accel_value"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/gyr_header"
+            android:textColor="#0190f6"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gyro_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/gyro_header"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#0190f6"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/enable_gyro"
+            style="@style/btnStyleDisabledIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/gyro_header"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/gyro_header"
+            android:layout_marginRight="3dp"
+            android:contentDescription="@string/img"
+            android:src="@drawable/uncheck" />
+
+        <TextView
+            android:id="@+id/alt_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/gyro_value"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/alt_header"
+            android:textColor="#0190f6"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/alt_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/alt_header"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#0190f6"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/enable_alt"
+            style="@style/btnStyleDisabledIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/alt_header"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/alt_header"
+            android:layout_marginRight="3dp"
+            android:contentDescription="@string/img"
+            android:src="@drawable/uncheck" />
+
+        <TextView
+            android:id="@+id/therm_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/alt_value"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/therm_header"
+            android:textColor="#0190f6"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/therm_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/therm_header"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#0190f6"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/enable_therm"
+            style="@style/btnStyleDisabledIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/therm_header"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/therm_header"
+            android:layout_marginRight="3dp"
+            android:contentDescription="@string/img"
+            android:src="@drawable/uncheck" />
+
+        <Button
+            android:id="@+id/buzzerButt"
+            style="@style/btnStyleBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enable_therm"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/buzzer"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/vibratorButt"
+            style="@style/btnStyleBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buzzerButt"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/vibrator"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/buzzvibButt"
+            style="@style/btnStyleBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vibratorButt"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/buzzvib"
+            android:textAllCaps="true" />
+    </RelativeLayout>
+
+</ScrollView>

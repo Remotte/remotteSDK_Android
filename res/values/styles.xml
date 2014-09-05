@@ -1,0 +1,71 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowActionBar">false</item>
+		<item name="android:windowTitleSize">0dp</item>
+    </style>
+    
+    <style name="btnStyleBlue" parent="@android:style/Widget.Button">
+       <item name="android:textSize">16sp</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:textColor">#FFFFFF</item>
+       <item name="android:gravity">center</item>
+       <item name="android:shadowColor">#000000</item>
+       <item name="android:shadowDx">1</item>
+       <item name="android:shadowDy">1</item>
+       <item name="android:shadowRadius">0.6</item>
+       <item name="android:background">@drawable/custom_btn_blue</item>
+       <item name="android:padding">10dip</item>
+   </style>
+   
+    <style name="btnStyleBlueIcon" parent="@android:style/Widget.Button">
+       <item name="android:textSize">16sp</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:textColor">#FFFFFF</item>
+       <item name="android:gravity">center</item>
+       <item name="android:shadowColor">#000000</item>
+       <item name="android:shadowDx">1</item>
+       <item name="android:shadowDy">1</item>
+       <item name="android:shadowRadius">0.6</item>
+       <item name="android:background">@drawable/custom_btn_blue</item>
+   </style>
+   
+    <style name="btnStyleDisabled" parent="@android:style/Widget.Button">
+       <item name="android:textSize">16sp</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:textColor">#e7e7e7</item>
+       <item name="android:gravity">center</item>
+       <item name="android:shadowColor">#000000</item>
+       <item name="android:shadowDx">1</item>
+       <item name="android:shadowDy">1</item>
+       <item name="android:shadowRadius">0.6</item>
+       <item name="android:background">@drawable/custom_btn_disable</item>
+       <item name="android:padding">10dip</item>
+   </style>
+   
+    <style name="btnStyleDisabledIcon" parent="@android:style/Widget.Button">
+       <item name="android:textSize">16sp</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:textColor">#e7e7e7</item>
+       <item name="android:gravity">center</item>
+       <item name="android:shadowColor">#000000</item>
+       <item name="android:shadowDx">1</item>
+       <item name="android:shadowDy">1</item>
+       <item name="android:shadowRadius">0.6</item>
+       <item name="android:background">@drawable/custom_btn_disable</item>
+   </style>
+
+</resources>

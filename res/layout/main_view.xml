@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" >
+    
+    <RelativeLayout
+        android:id="@+id/mActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#0190f6"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/remotte_text_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/img"
+            android:src="@drawable/remotte_header" />
+
+        <ImageView
+            android:id="@+id/menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@string/img"
+            android:src="@drawable/ic_action_overflow" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_alignTop="@+id/menu_button"
+            android:layout_alignBottom="@+id/menu_button"
+            android:layout_toLeftOf="@+id/menu_button" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mActionBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" >
+
+        <ImageView
+            android:id="@+id/remotte_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/img"
+            android:src="@drawable/remotte_line_blue" />
+
+        <ImageView
+            android:id="@+id/remotte_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/remotte_image"
+            android:contentDescription="@string/img"
+            android:src="@drawable/remotte_header_white" />
+    </RelativeLayout>
+    
+    <Button
+        android:id="@+id/connectButt"
+        style="@style/btnStyleBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mHeader"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/connect"
+        android:textAllCaps="true" />
+    
+    <Button
+        android:id="@+id/rebootButt"
+        style="@style/btnStyleDisabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/connectButt"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/reboot"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/bootloaderButt"
+        style="@style/btnStyleDisabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/rebootButt"
+        android:layout_marginTop="10dp"
+        android:text="@string/bootloader"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/calibrateButt"
+        style="@style/btnStyleDisabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/bootloaderButt"
+        android:layout_marginTop="10dp"
+        android:text="@string/calibrate"
+        android:textAllCaps="true" />
+    
+    <Button
+        android:id="@+id/sensorsButt"
+        style="@style/btnStyleDisabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/calibrateButt"
+        android:layout_marginTop="10dp"
+        android:text="@string/sensors"
+        android:textAllCaps="true" />
+    
+    <TextView 
+        android:id="@+id/connection_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mActionBar"
+        android:layout_alignParentRight="true"
+        android:textColor="#ff0000"
+        android:background="#CDCDCD"
+        android:text="@string/disconnected"
+        android:textAllCaps="true"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"/>
+
+</RelativeLayout>

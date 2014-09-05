@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/item_website"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_website"
+        android:visible="true"/>
+    <item
+        android:id="@+id/item_exit"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_exit"
+        android:visible="true"/>
+
+</menu>

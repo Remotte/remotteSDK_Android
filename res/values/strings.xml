@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">Remotte BootLoader</string>
+    <string name="img">Image</string>
+    <string name="reboot">Reboot Remotte</string>
+    <string name="bootloader">Launch in BootLoader Mode</string>
+    <string name="calibrate">Calibrate Touchpad</string>
+    <string name="connect">Connect To Remotte</string>
+    <string name="sensors">Sensors</string>
+    <string name="sensors_title">- SENSORS</string>
+    <string name="stop">Stop</string>
+    <string name="disconnect">Disconnect From Remottet</string>
+    <string name="scanning">Scanning</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="acceptar">OK!</string>
+    
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    
+    <string name="menu_website">Website</string>
+    <string name="menu_exit">EXIT</string>
+    
+    <string name="accel_header">ACCELEROMETER</string>
+    <string name="gyr_header">GYROSCOPE</string>
+    <string name="alt_header">ALTIMETER</string>
+    <string name="therm_header">THERMOMETER</string>
+    <string name="batt_header">BATTERY</string>
+    <string name="motion_header">MOTION EVENT</string>
+    
+    <string name="buzzer">BUZZER</string>
+    <string name="vibrator">VIBRATOR</string>
+    <string name="buzzvib">BUZZER AND VIBRATOR</string>
+
+</resources>
