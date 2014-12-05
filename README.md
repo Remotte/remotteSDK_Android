@@ -22,4 +22,4 @@ Remotte SDK Android is available under the MIT licence. See the LICENCE file for
 
 ## instructions
 
-https://docs.google.com/document/d/1mxW8YTp6w3Dsoxl8cfkw5jXxR_TR41sXAlFb9NyHMOg/edit?usp=sharing
+[GATT profiles and remotte config](https://docs.google.com/document/d/1mxW8YTp6w3Dsoxl8cfkw5jXxR_TR41sXAlFb9NyHMOg/edit?usp=sharing)
