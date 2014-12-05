@@ -19,3 +19,7 @@ For more info contact us in support@remotte.com
 ## Licence
 
 Remotte SDK Android is available under the MIT licence. See the LICENCE file for more info.
+
+## instructions
+
+https://docs.google.com/document/d/1mxW8YTp6w3Dsoxl8cfkw5jXxR_TR41sXAlFb9NyHMOg/edit?usp=sharing
